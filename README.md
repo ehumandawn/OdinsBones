@@ -23,4 +23,11 @@ Update 2/22/19
 For assignments 10&11, I've linked Unity and GitHub, I'm the only one on the project and I can use both tools just fine. I used the GitHub
 for Unity asset to do this.
 
+Update 2/27/19
+
+Assets for this project: A package of wooden plank surfaces for the table top. Stones as 3D object to toss. I also plan on purchasing some viking-fantasy music to play in the background and some runes to put on the stones.
+
+Resources: The book is my main resource, but so is the Unity help page. I found code samples for making my lights flicker there and settled in on a final solution. I'm also plan on using a fantastic YouTuber, Brackeys. My son is also making a game in Unity right now, and he turned me on to this guy. When it comes time to add opening screen shots and attach text to runes on the stones, I plan on searching Brackeys channel for advice.
+
+
 
