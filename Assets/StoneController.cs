@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StoneController : MonoBehaviour {
-	
-	[SerializeField] private GameObject StonePrefab;
+	//[SerializeField] private GameObject StonePrefab;
+	[SerializeField] private GameObject StonePrefab1;
+	[SerializeField] private GameObject StonePrefab2;
+
 	private GameObject[] _stone = new GameObject[24];
 
 
@@ -25,8 +27,17 @@ public class StoneController : MonoBehaviour {
 
 		for (int i = 0; i < _stone.Length; i++) {
 			if (_stone[i] == null) {
-				_stone[i] = Instantiate (StonePrefab) as GameObject;
-				_stone[i].transform.position = new Vector3 (i, 4, -i);
+				//_stone [i] = Instantiate (StonePrefab) as GameObject;
+				//_stone [i].transform.position = new Vector3 (i, 4, -i);
+
+				if (i % 2 == 0) {
+					_stone [i] = Instantiate (StonePrefab1) as GameObject;
+					_stone [i].transform.position = new Vector3 (i, 4, -i);
+				} else {
+					_stone [i] = Instantiate (StonePrefab2) as GameObject;
+					_stone [i].transform.position = new Vector3 (i, 4, -i);
+				}
+
 			}
 		
 		}

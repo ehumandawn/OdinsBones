@@ -4,7 +4,9 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - StonePrefab: {fileID: 1153990715818954, guid: 9d4ca86e9afd6c840a9c6c244aa525bc,
+  - StonePrefab1: {fileID: 1144068832640638, guid: 65a52c59ff6303d42b7f983ba2abe9c9,
+      type: 2}
+  - StonePrefab2: {fileID: 1153990715818954, guid: 9d4ca86e9afd6c840a9c6c244aa525bc,
       type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
