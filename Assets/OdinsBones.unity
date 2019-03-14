@@ -181,55 +181,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c9b8d2d7d550d49b63c043c9fc527a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StonePrefab1: {fileID: 1045920044451530, guid: 859f6398748b3b846b72741804ec9ef3,
+  StonePrefab1: {fileID: 1262897913632574, guid: 057debdccf5014e4a858852e2da4f4a4,
     type: 2}
-  StonePrefab2: {fileID: 1574362813572242, guid: 569530f48b00fe748b0067628b36b681,
+  StonePrefab2: {fileID: 1224475245616758, guid: b08a98b18abc3314fb88bba0d1f29d65,
     type: 2}
-  StonePrefab3: {fileID: 1757801817849802, guid: 8883b245d10bff0408b24eccabea356c,
+  StonePrefab3: {fileID: 1617020347555290, guid: b44cb85f07dcf204cab2c0984b25e9b8,
     type: 2}
-  StonePrefab4: {fileID: 1580069609850626, guid: 24183da8dea035a448f02bd0bdcb12e4,
+  StonePrefab4: {fileID: 1311669036933952, guid: 24183da8dea035a448f02bd0bdcb12e4,
     type: 2}
-  StonePrefab5: {fileID: 1622427593833244, guid: 9406954ec9123ef49ba048ead756d7b7,
+  StonePrefab5: {fileID: 1075360414713174, guid: 2d2818cd0f346814b9df79ed7ccd6a2a,
     type: 2}
-  StonePrefab6: {fileID: 1940965173648762, guid: a3afcafbb583c884d892c6c3a729fcc7,
+  StonePrefab6: {fileID: 1461775174320334, guid: 5768e00887b43f0418b6e6236b56b45e,
     type: 2}
-  StonePrefab7: {fileID: 1074913400419148, guid: 297c07d4e4aefd6499fc55fcab5471c3,
+  StonePrefab7: {fileID: 1616035286552402, guid: 4193a72936a406e40b3ee9bba6e8aa79,
     type: 2}
-  StonePrefab8: {fileID: 1504768086324204, guid: fdc25dc7a2c513e4086a30d09f1256f0,
+  StonePrefab8: {fileID: 1729884351649268, guid: 002f421632691834fbb6c0dc2a1f98a5,
     type: 2}
-  StonePrefab9: {fileID: 1038095195459122, guid: 663fa57a5709bc0409793656948e3fdc,
+  StonePrefab9: {fileID: 1264493093806324, guid: 5cb1df43d19a2f945b91214bf0602ae0,
     type: 2}
-  StonePrefab10: {fileID: 1495100688187764, guid: f3cfb495fcda9c7469658f51c943d3c1,
+  StonePrefab10: {fileID: 1230931270644944, guid: 7c93074b47fcc8148b0c1c7076178370,
     type: 2}
-  StonePrefab11: {fileID: 1882551337683966, guid: 6081534e2a0f72e40bcd760e7b023610,
+  StonePrefab11: {fileID: 1693021488766430, guid: 6b0293296c84c984d898f0eae3277ce7,
     type: 2}
-  StonePrefab12: {fileID: 1927319323829240, guid: 466cf0ec04317f544a81eb0591a60749,
+  StonePrefab12: {fileID: 1708568175470388, guid: 6e11a069adfefd24a95407c772a0880f,
     type: 2}
-  StonePrefab13: {fileID: 1959916817547534, guid: dc25e654b7b63dd40a2e76d847b97808,
+  StonePrefab13: {fileID: 1603391562176308, guid: 1790eaa666010074c9e26ff49675ec04,
     type: 2}
-  StonePrefab14: {fileID: 1527675656345838, guid: 6f06f2b87cb5e1841aba2af569ed9f52,
+  StonePrefab14: {fileID: 1594855723157224, guid: 3379fedc611e891438399ed2f7e0d5db,
     type: 2}
-  StonePrefab15: {fileID: 1291003530240722, guid: eb9ae88103bd9384f92c6a9253cd85b6,
+  StonePrefab15: {fileID: 1809933475896748, guid: 03de1de19e5a7cd45926204b55bb50f5,
     type: 2}
-  StonePrefab16: {fileID: 1419568262731196, guid: 7b680b9b997296b43858193d8cfde298,
+  StonePrefab16: {fileID: 1092128389545208, guid: 9f7f94a2101fa8e46b79c8a1495028f0,
     type: 2}
-  StonePrefab17: {fileID: 1194241499402614, guid: 85a81f0ccaeab524facae4d515ecbf99,
+  StonePrefab17: {fileID: 1962037617788738, guid: fc9ab58aa2ff8784cb9ccede372f24e9,
     type: 2}
-  StonePrefab18: {fileID: 1041319824023168, guid: 0e4bb0be25e0a854fbc4ed00130fa9ff,
+  StonePrefab18: {fileID: 1783675188292662, guid: 2efb24c889e8c0041b9b6aaa953dbac6,
     type: 2}
-  StonePrefab19: {fileID: 1052652707996244, guid: 19db586ffa812824991883dbc4ca7a73,
+  StonePrefab19: {fileID: 1884709979314570, guid: 51decc130b99fe44996f5b59a19cc697,
     type: 2}
-  StonePrefab20: {fileID: 1759701296426296, guid: e2df17d62d2667444a9c77f6d39cb12d,
+  StonePrefab20: {fileID: 1135697038653884, guid: 848f959e6c070374d975bc006ee982d0,
     type: 2}
-  StonePrefab21: {fileID: 1744505393508282, guid: 13c5e3e6eb740954cb46e13be5d1776b,
+  StonePrefab21: {fileID: 1564768950594196, guid: 0a10c82cf21d92e48b8e8263dee14ee9,
     type: 2}
-  StonePrefab22: {fileID: 1111486514922114, guid: f684610d5d60afa4dafa1b84a8143d5e,
+  StonePrefab22: {fileID: 1249788542375672, guid: a2ef7aa8c3a5ac04399a5441ccefb7c5,
     type: 2}
-  StonePrefab23: {fileID: 1083103477888442, guid: fb315a73bccacde438a60d52ae059316,
+  StonePrefab23: {fileID: 1607039896573750, guid: 4e1fb4c9d12f44a4ebcff94dba1d5051,
     type: 2}
-  StonePrefab24: {fileID: 1241889564520668, guid: dca5c5ef4fdae3e439217f66c0b113f0,
+  StonePrefab24: {fileID: 1393540292981526, guid: cddbc6e18f1a84244b9bca08697f1786,
     type: 2}
-  StonePrefab25: {fileID: 1105575317280852, guid: e486793f681df0640997234bd8e578c8,
+  StonePrefab25: {fileID: 1377680077193692, guid: 1339cc25e45695e4d8ae324e43c781d2,
     type: 2}
 --- !u!4 &70915019
 Transform:
@@ -544,7 +544,7 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 924286768}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a90dd989effb09247b422fd12c6685b3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -565,7 +565,7 @@ Transform:
   m_GameObject: {fileID: 924286768}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 10, z: 50}
+  m_LocalScale: {x: 50, y: 10, z: 70}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -579,7 +579,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.5
   m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
