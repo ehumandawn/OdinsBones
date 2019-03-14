@@ -31,12 +31,12 @@ public class StoneController : MonoBehaviour {
 	[SerializeField] private GameObject StonePrefab25;
 
 
-	private GameObject[] _stone = new GameObject[10];
+	private GameObject[] _stone = new GameObject[6];
 	// maximum number of stones I wish to be thrown
 
 	private ArrayList RuneList = new ArrayList ();
 	private int count = 0; 
-
+	private float torque = 10.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -53,7 +53,7 @@ public class StoneController : MonoBehaviour {
 		// AND be random, not the same stones should land in the box each time
 		// AND somehow the text that goes with the stones must be printed. 
 
-		while (count < 10) {
+		while (count < 6) {
 
 			int runeThrown = Random.Range (0, 24);
 			Debug.Log ("RuneThrone:" + runeThrown);
@@ -65,79 +65,119 @@ public class StoneController : MonoBehaviour {
 				if (_stone [count] == null) {
 					if (runeThrown == 0) {
 						_stone [count] = Instantiate (StonePrefab1) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -1);
+						_stone [count].transform.position = new Vector3 (runeThrown, 10, -runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 1) {
 						_stone [count] = Instantiate (StonePrefab2) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -2);
+						_stone [count].transform.position = new Vector3 (runeThrown, 11, runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 2) {
 						_stone [count] = Instantiate (StonePrefab3) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -1);
+						_stone [count].transform.position = new Vector3 (-runeThrown, 12, -13);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 3) {
 						_stone [count] = Instantiate (StonePrefab4) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -2);
+						_stone [count].transform.position = new Vector3 (20, 13, -runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 4) {
 						_stone [count] = Instantiate (StonePrefab5) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -3);
+						_stone [count].transform.position = new Vector3 (-runeThrown, 14, -20);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 5) {
 						_stone [count] = Instantiate (StonePrefab6) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -4);
+						_stone [count].transform.position = new Vector3 (-6, 15, -runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 6) {
 						_stone [count] = Instantiate (StonePrefab7) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -5);
+						_stone [count].transform.position = new Vector3 (runeThrown, 16, -5);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 7) {
 						_stone [count] = Instantiate (StonePrefab8) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -6);
+						_stone [count].transform.position = new Vector3 (-12, 17, runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
 					} else if (runeThrown == 8) {
 						_stone [count] = Instantiate (StonePrefab9) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -7);
+						_stone [count].transform.position = new Vector3 (-19, 18, 19);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 9) {
 						_stone [count] = Instantiate (StonePrefab10) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -8);
+						_stone [count].transform.position = new Vector3 (-10, 19, -8);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 10) {
 						_stone [count] = Instantiate (StonePrefab11) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -9);
+						_stone [count].transform.position = new Vector3 (-11, 20, -9);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 11) {
 						_stone [count] = Instantiate (StonePrefab12) as GameObject;
-						_stone [count].transform.position = new Vector3 (1, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (-4, 21, 15);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 12) {
 						_stone [count] = Instantiate (StonePrefab13) as GameObject;
-						_stone [count].transform.position = new Vector3 (2, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (5, 22, -runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 13) {
 						_stone [count] = Instantiate (StonePrefab14) as GameObject;
-						_stone [count].transform.position = new Vector3 (3, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (-6, 10, -runeThrown);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 14) {
 						_stone [count] = Instantiate (StonePrefab15) as GameObject;
-						_stone [count].transform.position = new Vector3 (4, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (-4, 23, -18);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 15) {
 						_stone [count] = Instantiate (StonePrefab16) as GameObject;
-						_stone [count].transform.position = new Vector3 (5, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (5, 24, -12);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 16) {
 						_stone [count] = Instantiate (StonePrefab17) as GameObject;
-						_stone [count].transform.position = new Vector3 (6, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (6, 25, -10);
 					} else if (runeThrown == 17) {
 						_stone [count] = Instantiate (StonePrefab18) as GameObject;
-						_stone [count].transform.position = new Vector3 (7, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (7, 26, -22);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 18) {
 						_stone [count] = Instantiate (StonePrefab19) as GameObject;
-						_stone [count].transform.position = new Vector3 (8, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (8, 17, -13);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 19) {
 						_stone [count] = Instantiate (StonePrefab20) as GameObject;
-						_stone [count].transform.position = new Vector3 (9, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (9, 28, -2);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 20) {
 						_stone [count] = Instantiate (StonePrefab21) as GameObject;
-						_stone [count].transform.position = new Vector3 (10, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (10, 29, 4);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 21) {
 						_stone [count] = Instantiate (StonePrefab22) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (3, 30, 23);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 22) {
 						_stone [count] = Instantiate (StonePrefab23) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (-5, 31, -1);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 23) {
 						_stone [count] = Instantiate (StonePrefab24) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (23, 32, -3);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					} else if (runeThrown == 24) {
 						_stone [count] = Instantiate (StonePrefab25) as GameObject;
-						_stone [count].transform.position = new Vector3 (runeThrown, 4, -runeThrown);
+						_stone [count].transform.position = new Vector3 (-10, 33, -5);
+						_stone [count].transform.Rotate (60, 0, 60);
+
 					}
 					count++;  //this should only happen if a new rune is picked
 				}

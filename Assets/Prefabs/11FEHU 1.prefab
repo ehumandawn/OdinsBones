@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4947657284385674}
   - component: {fileID: 33869891911295998}
-  - component: {fileID: 136141595337814602}
   - component: {fileID: 23528631544935240}
   - component: {fileID: 54598828844339028}
+  - component: {fileID: 65842945697075816}
   m_Layer: 0
   m_Name: 11FEHU 1
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1693021488766430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.772114, y: 17.128448, z: -3.2120361}
-  m_LocalScale: {x: 6, y: 0.5, z: 8}
+  m_LocalScale: {x: 4, y: 0.5, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,7 +91,7 @@ Rigidbody:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1693021488766430}
   serializedVersion: 2
-  m_Mass: 10
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
@@ -99,8 +99,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &136141595337814602
-CapsuleCollider:
+--- !u!65 &65842945697075816
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -108,7 +108,6 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: a90dd989effb09247b422fd12c6685b3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}

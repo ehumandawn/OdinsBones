@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4323107389483478}
   - component: {fileID: 33107566176873026}
-  - component: {fileID: 136762783078412748}
   - component: {fileID: 23337723682466074}
   - component: {fileID: 54985915881160288}
+  - component: {fileID: 65474162892261608}
   m_Layer: 0
   m_Name: 3ANSUZ
   m_TagString: Untagged
@@ -38,7 +38,7 @@ Transform:
   m_GameObject: {fileID: 1617020347555290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.772114, y: 17.128448, z: -3.2120361}
-  m_LocalScale: {x: 6, y: 0.5, z: 8}
+  m_LocalScale: {x: 4, y: 0.5, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -99,16 +99,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &136762783078412748
-CapsuleCollider:
+--- !u!65 &65474162892261608
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1617020347555290}
-  m_Material: {fileID: 13400000, guid: a90dd989effb09247b422fd12c6685b3, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 0, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
