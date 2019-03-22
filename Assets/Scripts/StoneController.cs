@@ -39,7 +39,7 @@ public class StoneController : MonoBehaviour {
 	private GameObject[] _stone = new GameObject[6];
 	// maximum number of stones I wish to be thrown
 
-	private ArrayList RuneList = new ArrayList ();
+    public static ArrayList RuneList = new ArrayList ();
 	private int count = 0; 
 
 
@@ -61,12 +61,12 @@ public class StoneController : MonoBehaviour {
 		while (count < 6) {
 
 			int runeThrown = Random.Range (0, 24);
-			Debug.Log ("RuneThrone:" + runeThrown);
+			//Debug.Log ("RuneThrone:" + runeThrown);
 		
 			if (!RuneList.Contains (runeThrown)) {
 				//the rune is new
 				RuneList.Add (runeThrown);
-				Debug.Log ("Count: " + count);
+				//Debug.Log ("Count: " + count);
 				if (_stone [count] == null) {
 					if (runeThrown == 0) {
 						_stone [count] = Instantiate (StonePrefab1) as GameObject;
@@ -192,23 +192,10 @@ public class StoneController : MonoBehaviour {
 
 		}
 
-		// the stones have been thrown, so wait a bit and then put the ui on screen
 
-		//if (button == null) {
-		//	button = Instantiate (parchment) as GameObject;
-		//	button.transform.position = new Vector3 (0, 0, 0); //put in center of screen
-		//}
 
 
 	}
-
-	//public void Restart() {
-		// we should reload to nothing. Eventually, I need to make text appear on the screen 
-		// based on RuneList()
-
-		//SceneManager.LoadScene ("Scene");
-	//}
-
-
+		
 
 }
