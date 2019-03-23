@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/OpeningScene.unity
+    guid: 2dce298a132b0ce4089df181d1a75e1f
+  - enabled: 1
+    path: Assets/OdinsBones.unity
+    guid: cad116111205d1248a9d10551537b420
