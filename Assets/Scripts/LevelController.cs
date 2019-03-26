@@ -29,12 +29,12 @@ public class LevelController : MonoBehaviour {
 
 	public void Awake () {
 		slider = GetComponent<Slider> ();
-		//if (slider.value == 1) {
+
 			slider.onValueChanged.AddListener (delegate {
 				OnSliderWasChanged ();
 			});
 			OnSliderWasChanged ();
-		//}
+	
 	}
 
 	public void OnSliderWasChanged() {
