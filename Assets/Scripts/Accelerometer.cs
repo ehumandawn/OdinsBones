@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
 public class Accelerometer : MonoBehaviour {
-	
 
 	// Use this for initialization
 	void Start () {
@@ -17,7 +15,7 @@ public class Accelerometer : MonoBehaviour {
 		Vector3 shake = Input.acceleration;
 
 		if (shake.sqrMagnitude > 3.0) {
-			SceneManager.LoadScene (1);
+			//FadeToScene (1);
 		}
 	}
 }
