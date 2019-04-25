@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65842945697075816}
   - component: {fileID: 82304333092454288}
   - component: {fileID: 114297094459583006}
+  - component: {fileID: 114092595110666170}
   m_Layer: 0
   m_Name: 11FEHU 1
   m_TagString: Untagged
@@ -111,8 +112,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Size: {x: 0.65, y: 0, z: 0.65}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &82304333092454288
 AudioSource:
   m_ObjectHideFlags: 1
@@ -124,7 +125,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2b02ae9d3f855de4f882594b45ea6fc7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.032
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -193,6 +194,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114092595110666170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1693021488766430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c95886fe36dd4f8ff6f5d0fdea589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 100
 --- !u!114 &114297094459583006
 MonoBehaviour:
   m_ObjectHideFlags: 1

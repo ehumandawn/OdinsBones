@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65624077812831102}
   - component: {fileID: 114288560669868794}
   - component: {fileID: 82714163282713652}
+  - component: {fileID: 114900794229606214}
   m_Layer: 0
   m_Name: 19HAGALZ
   m_TagString: Untagged
@@ -107,12 +108,12 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1884709979314570}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a90dd989effb09247b422fd12c6685b3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Size: {x: 0.65, y: 0, z: 0.65}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &82714163282713652
 AudioSource:
   m_ObjectHideFlags: 1
@@ -204,4 +205,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a647f9fdc1e8194a82aeee3343a42f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StoneSound: {fileID: 0}
+  StoneSound: {fileID: 82618022893092438, guid: 848f959e6c070374d975bc006ee982d0,
+    type: 2}
+--- !u!114 &114900794229606214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1884709979314570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c95886fe36dd4f8ff6f5d0fdea589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 100

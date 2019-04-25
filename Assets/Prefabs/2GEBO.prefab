@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 33288007811578722}
   - component: {fileID: 23938911386724826}
   - component: {fileID: 54683858858911702}
-  - component: {fileID: 65629739368804902}
   - component: {fileID: 114015867682056446}
   - component: {fileID: 82247729115899348}
+  - component: {fileID: 114798474965164312}
+  - component: {fileID: 65905411340430256}
   m_Layer: 0
   m_Name: 2GEBO
   m_TagString: Untagged
@@ -101,18 +102,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &65629739368804902
+--- !u!65 &65905411340430256
 BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1224475245616758}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: a90dd989effb09247b422fd12c6685b3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0000001, y: 0, z: 1.0000002}
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Size: {x: 0.65, y: 0, z: 0.65}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &82247729115899348
 AudioSource:
   m_ObjectHideFlags: 1
@@ -205,3 +206,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StoneSound: {fileID: 0}
+--- !u!114 &114798474965164312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1224475245616758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c95886fe36dd4f8ff6f5d0fdea589, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pushForce: 100
