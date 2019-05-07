@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114546175263964812}
   - component: {fileID: 114938042704378828}
   - component: {fileID: 65904513106927866}
+  - component: {fileID: 114600946990440384}
   m_Layer: 0
   m_Name: 3ANSUZ
   m_TagString: Untagged
@@ -112,7 +113,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.65, y: 0, z: 0.65}
+  m_Size: {x: 0.65, y: 0.3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &82663993577917742
 AudioSource:
@@ -206,6 +207,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StoneSound: {fileID: 0}
+--- !u!114 &114600946990440384
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1617020347555290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3a9fffea8ec6a41a0f10601419e7be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoneSound: {fileID: 0}
 --- !u!114 &114938042704378828
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -217,4 +230,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c95886fe36dd4f8ff6f5d0fdea589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 100

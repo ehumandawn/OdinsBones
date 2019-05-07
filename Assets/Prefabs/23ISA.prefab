@@ -26,6 +26,7 @@ GameObject:
   - component: {fileID: 114609152355866140}
   - component: {fileID: 82729375300099108}
   - component: {fileID: 114922643082521384}
+  - component: {fileID: 114028752612937270}
   m_Layer: 0
   m_Name: 23ISA
   m_TagString: Untagged
@@ -112,7 +113,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.65, y: 0, z: 0.65}
+  m_Size: {x: 0.65, y: 0.3, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!82 &82729375300099108
 AudioSource:
@@ -194,6 +195,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114028752612937270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1607039896573750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3a9fffea8ec6a41a0f10601419e7be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoneSound: {fileID: 0}
 --- !u!114 &114609152355866140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -217,4 +230,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea4c95886fe36dd4f8ff6f5d0fdea589, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pushForce: 100

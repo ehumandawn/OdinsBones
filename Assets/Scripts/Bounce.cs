@@ -13,7 +13,7 @@ public class Bounce : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision collision) {
-		if (collision.gameObject.name != "Table") {
+		if (collision.gameObject.name != "Table")  {
 			body = GetComponent<Rigidbody> ();
 			//body.transform.Rotate (90, 0, 90);
 			Deflection (collision.contacts [0].normal);

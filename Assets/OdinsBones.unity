@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 42310394}
   - component: {fileID: 42310393}
   m_Layer: 16
-  m_Name: GameBoundary (3)
+  m_Name: GameBoundary_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -140,7 +140,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 100, y: 2000, z: 1}
-  m_Center: {x: 0, y: 0, z: -30}
+  m_Center: {x: 0, y: 0, z: -28}
 --- !u!4 &42310394
 Transform:
   m_ObjectHideFlags: 0
@@ -289,12 +289,12 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 640, y: 960}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -380,7 +380,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 400, y: 200}
+  m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217932509
 MonoBehaviour:
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 222745923}
   - component: {fileID: 222745922}
   m_Layer: 16
-  m_Name: GameBoundary (1)
+  m_Name: GameBoundary_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,7 +567,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -39, y: 40}
+  m_AnchoredPosition: {x: -70, y: 55}
   m_SizeDelta: {x: 30, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &234658428
@@ -700,6 +700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ed5b70514462f4ba85afc6cc9e637e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  twitterMsg: Need the help of a god? Download Odin's Bones!
+  twitterDescriptionParam: 
+  APP_STORE_LINK: https://play.google.com/store/apps/details?id=com.eHumanDawn.OdinsBones
 --- !u!224 &275776914 stripped
 RectTransform:
   m_PrefabParentObject: {fileID: 224219276394104272, guid: d8cd9da2712749248b33726d8bcd89d3,
@@ -813,7 +816,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 100, y: 2000, z: 1}
-  m_Center: {x: 0, y: 0, z: -30}
+  m_Center: {x: 0, y: 0, z: -25}
 --- !u!4 &458185617
 Transform:
   m_ObjectHideFlags: 0
@@ -1309,7 +1312,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: d100c3f74f196451e81790ca7cc07acb, type: 3}
-    m_FontSize: 48
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1337,7 +1340,7 @@ GameObject:
   - component: {fileID: 1181386605}
   - component: {fileID: 1181386604}
   m_Layer: 16
-  m_Name: GameBoundary (2)
+  m_Name: GameBoundary_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1913,7 +1916,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0fe2a3e36748f467c9b0dacef73667bf, type: 3}
-    m_FontSize: 42
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1944,10 +1947,10 @@ RectTransform:
   m_Father: {fileID: 1578424490}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.1837598, y: 0.12960309}
-  m_AnchorMax: {x: 0.8184135, y: 0.877598}
-  m_AnchoredPosition: {x: 0.5, y: 2.3499985}
-  m_SizeDelta: {x: 1, y: 4.7}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.9041985, y: 1}
+  m_AnchoredPosition: {x: 29.07501, y: -1.3999939}
+  m_SizeDelta: {x: -58.15, y: -78.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1650795083
 GameObject:

@@ -10,10 +10,10 @@ public class SoundScript : MonoBehaviour {
 	void Start () {
 		StoneSound = GetComponent<AudioSource> ();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 
 	void OnCollisionEnter(Collision collision) {
