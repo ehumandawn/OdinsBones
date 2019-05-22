@@ -33,7 +33,7 @@ public class StoneController : MonoBehaviour {
 
 
 
-	private GameObject[] _stone = new GameObject[6];
+	private GameObject[] _stone = new GameObject[4];
 	// maximum number of stones I wish to be thrown
 
     public static ArrayList RuneList = new ArrayList ();
@@ -57,7 +57,7 @@ public class StoneController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {  
 
-		while (count < 6) {
+		while (count < 4) {
 
 			int runeThrown = Random.Range (0, 25);
 			float yLocation = Random.Range (10.0f, 30.0f);
