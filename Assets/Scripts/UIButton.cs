@@ -10,7 +10,7 @@ public class UIButton : MonoBehaviour {
 
 	private int runeCount = 0;
 
-	private string fortune = "You threw ";
+	private string fortune = "Odin speaks: ";
 	
 	// Use this for initialization
 	void Start () {
@@ -21,6 +21,16 @@ public class UIButton : MonoBehaviour {
 	void Update () {
 
 		while (runeCount < StoneController.RuneList.Count) {
+			// chose which stone we're on and write the correct phrase into fortune
+
+			if (runeCount == 0) {
+				fortune += "\n The overview of the situation is ";
+			} else if (runeCount == 1) {
+				fortune += "\n Your challenge now is ";
+			} else if (runeCount == 2) {
+				fortune += "\n The course of action called for is ";
+			}
+
 			int i = (int) StoneController.RuneList [runeCount];
 			//Debug.Log ("Writing fortune" + i);
 			if (i == 0) {
